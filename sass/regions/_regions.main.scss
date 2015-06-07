@@ -1,0 +1,18 @@
+// _regions.main.scss
+#main {
+	a {
+	  &:link, &:visited {
+	    color: #85c227;
+	    text-decoration: none;
+	  }
+	}
+	.container {
+		background: #F4F7F1;
+		#content {
+			padding-left:1em;
+		}
+		#content-footer {
+			background: shade(#1b89d1, 10%);
+		}
+	}
+}

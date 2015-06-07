@@ -1,0 +1,12 @@
+// _elements.sponsorgrid.scss
+
+.sponsor-grid-row{
+	.views-field {
+		.field-content {
+			img {
+				@include margin(.5em 25% .5em 25%);
+				vertical-align:middle;
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+// _regions.header.scss
+#header {
+	background:tint(#901d78, 50%);
+	padding-top:2em;
+	
+	.container {
+		@include padding(2em 2em .5em 2em);
+		@include border-top-radius(25px);
+		background: tint(#85c227, 90%);
+		#name-and-slogan {
+			@include outer-container;
+			#logo {
+				@include span-columns(3);
+			}
+			#site-name-and-slogan {
+				@include span-columns(9);
+				top: 50%;
+				@include transform(translateY(30%));
+			}
+		}
+	}
+}

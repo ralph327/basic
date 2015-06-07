@@ -1,0 +1,14 @@
+// _regions.navigation.scss
+#navigation {
+	.container {
+		background: #df5a91;
+		.main-menu {
+			li {
+				@include padding(null .5em null .5em);
+			}
+			li.first {
+				@include padding(null .5em null 1em);
+			}
+		}
+	}
+}
